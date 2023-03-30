@@ -6,7 +6,7 @@ module.exports = NodeHelper.create({
   socketNotificationReceived: function (noti, payload) {
     switch (noti) {
       case "INIT":
-        console.log("[TEST] MMM-Test Version:", require('./package.json').version, "rev:", require('./package.json').rev)
+        console.log("[TEST] EXT-Test Version:", require('./package.json').version, "rev:", require('./package.json').rev)
         break
     }
   }

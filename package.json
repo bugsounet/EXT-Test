@@ -1,9 +1,9 @@
 {
-  "name": "MMM-Test",
+  "name": "EXT-Test",
   "version": "1.0.0",
   "rev": "230300",
-  "description": "Test module",
-  "main": "MMM-Test.js",
+  "description": "Test plugin",
+  "main": "EXT-Test.js",
   "scripts": {
     "preinstall": "installer/preinstall.sh",
     "postinstall": "installer/postinstall.sh",
@@ -13,6 +13,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bugsounet/MMM-Test"
+    "url": "https://github.com/bugsounet/EXT-Test"
   }
 }

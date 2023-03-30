@@ -1,11 +1,11 @@
 /**
- ** Module : EXT-Welcome
+ ** Module : EXT-Test
  ** @bugsounet
- ** ©02-2022
+ ** ©03-2023
  ** support: https://forum.bugsounet.fr
  **/
 
-Module.register("MMM-Test", {
+Module.register("EXT-Test", {
   defaults: {
     debug: true
   },
@@ -18,8 +18,8 @@ Module.register("MMM-Test", {
 
   notificationReceived: function(noti, payload,sender) {
     switch(noti) {
-      case "DOM_OBJECTS_CREATED":
-        this.sendSocketNotification("INIT")
+      case "GW_READY":
+        if (sender == "Gateway") this.sendSocketNotification("INIT")
         break
     }
   }

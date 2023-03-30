@@ -1,5 +1,5 @@
-# MMM-Test
+# EXT-Test
 
-MMM-Test is a test module
+MMM-Test is a test plugin
 
 Test...
