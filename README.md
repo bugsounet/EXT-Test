@@ -1,3 +1,3 @@
 # EXT-Test
 
-EXT-Test is a test plugin 
+EXT-Test is a test plugin
